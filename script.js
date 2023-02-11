@@ -2,7 +2,7 @@ var form = document.getElementById("creds");
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
-    var username = document.getElementById("username").value;
+    var username = document.getElementById("name").value;
     var password = document.getElementById("password").value;
 
     fetch("https://id.blooket.com/api/users/login", {
