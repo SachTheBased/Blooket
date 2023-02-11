@@ -1,4 +1,4 @@
-var form = document.getElementById("form");
+var form = document.getElementById("creds");
 
 form.addEventListener("submit", function(event) {
     event.preventDefault();
